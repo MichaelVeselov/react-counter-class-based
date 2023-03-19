@@ -14,13 +14,15 @@ body {
     rgba(253, 29, 29, 1) 50%,
     rgba(252, 176, 69, 1) 100%
   );
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .app {
   width: 350px;
   height: 250px;
   background-color: #fff;
-  margin: 50px auto 0 auto;
   padding: 40px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
